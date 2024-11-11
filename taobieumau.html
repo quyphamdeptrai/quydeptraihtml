@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=width-device,intitial-scale=1.0">
+  <title>Web Cua Pham Van Quy</title>
+  <style>
+  h1{
+    position: relative;
+            max-width: 100%;
+            padding: 0%;
+     background: rgba(255, 255, 255, 0.8);
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+     input[type=text], seclect{
+       border: 1px double grey;
+       margin:5% 0;
+       padding:5%;
+       display: inline-block;
+       border-radius: 4%;
+       box-sizing: border-box;
+       width:100%;
+       
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+     }
+  input[type=date] ,seclect{
+    border: 1% double ;
+       margin:5% 0;
+       padding:5%;
+       display: inline-block;
+       border-radius: 4%;
+       box-sizing: border-box;
+    width:100%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  input[type=radio], seclect{
+       margin:0% ;    
+       width:10%;
+    text-size:20%;
+    padding:20%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  div {
+    background-color:rgb(179, 219, 255);
+    padding:5%;
+   border-radius:5%;
+    margin:5%;
+    height:70%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width:70%;
+    position: relative;
+            max-width: 100%;
+            padding: 5%;
+            background: rgba(255, 255, 255, 0.8);
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        
+  }
+  .bgimg  {
+  background-image: url("anhphongcanh.jpg");
+    min-height: 100vh;
+            background-size: 100% 100% ;
+            display: inline-flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+    width:100%;
+    height:30%;
+}
+  body{
+    margin:0;
+  }
+  h1 {
+   text-align:center;
+  }
+  </style>
+  
+</head>
+<body>
+  <div class="bgimg">
+  
+  <h1>
+    Đăng Kí môn thi Tốt Nghiệp
+  </h1>
+  <div>
+  <form class="khung">
+    <label for="hovaten">Họ và tên:</label>
+    <input id="hovaten" type="text" name="hovaten" placeholder="Họ Và Tên là.....">
+    <br>
+    <label for="CCCD">CCCD:</label>
+    <input id="CCCD" type="text" name="CCCD" placeholder="CCCD là......">
+    <br>
+    <label for="date">Ngày Sinh:</label>
+    <input id="date" type="date" name="date" placeholder="dd/mm/yy">
+    <label for="gioitinh" value="Nam">Giới tính:</label>
+    
+     <input id="gioitinh"  type="radio" name="gioitinh" value="Nam" Nam>   Nam
+    
+     <input id="gioitinh" type="radio" name="gioitinh">    Nữ
+     
+  </form>
+  </div>
+ 
+</body>
+</html>
